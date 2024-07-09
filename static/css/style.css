@@ -1,0 +1,117 @@
+body {
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+/* Definir un color azul rey */
+.royal-blue {
+    background-color: #03572f;
+    color: white;
+}
+
+.royal-blue-text {
+    color: #255200;
+}
+
+/* Estilos para el jumbotron personalizado */
+.custom-jumbotron {
+    background-color: #055e1f;
+    color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    text-align: center;
+}
+
+/* Otros estilos personalizados */
+.navbar-custom {
+    background-color: #04470f;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28white, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+body {
+    background-color: #f8f9fa; /* Color de fondo */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+h2, h3 {
+    color: #2e8b57; /* Verde oscuro */
+}
+
+.table {
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #2e8b57; /* Verde oscuro para la cabecera */
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+.btn-primary {
+    background-color: #2e8b57;
+    border-color: #2e8b57;
+}
+
+.btn-primary:hover {
+    background-color: #1c5b3f;
+    border-color: #1c5b3f;
+}
+
+.btn-info {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-info:hover {
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
